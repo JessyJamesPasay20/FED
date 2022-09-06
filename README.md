@@ -1,4 +1,4 @@
-# Frontend-blok1-eindopdracht
+# Procesverslag
 Frontend Development eind opdracht -> Mappa.co.jp
 
 Verslag om verandering vast te leggen.
