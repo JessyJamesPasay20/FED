@@ -11,6 +11,7 @@
     --invertedElements: #fff;
     --invertedTextFonts: #000000;
     --afterColor: #ffffff75;
+    --logoColor: contrast(0) brightness(2);
 }
 
 html {background: var(--pageBackground); font-family: 'Catamaran', sans-serif; font-size: 12px; }
@@ -36,12 +37,13 @@ body > header nav button svg {width: 26px;height: 26px; fill:#fff;stroke:#fff;st
 body > header button:hover {  text-decoration: none;color: #272727;}
 body > header img {width: 100px;
     height: 20px;}
-nav {z-index:1;background: linear-gradient(180deg, rgb(26, 26, 26)80%, rgb(255, 76, 76) 80%);position:fixed;overflow: hidden;height: 100vh;display: none;padding: 20px 5%;}
-header nav > button {position: absolute;left: 6%;top: 2%;color: #FF4C4C;}
+nav {z-index:1;overflow: hidden;padding: 20px 5%;}
+header nav > button {position: absolute;left: 6%;top: 2%;}
 nav img {cursor: pointer;position: absolute;right: 5%;top: 3.1%;}
 nav li {padding: 0.9em 4em;font-weight: 600;width: 100%;}  
+nav li:last-child {}
 nav ul { width: 100%; display: flex;flex-direction: column;justify-content: center;}
-nav li a {text-decoration: none;color: white;font-size: 1.4em;text-transform: uppercase;padding: 10px;-webkit-text-stroke: white 2px;width: 100%;display: block;}
+nav li a {text-decoration: none;color:var(--textFont);font-size: 1.4em;text-transform: uppercase;padding: 10px;-webkit-text-stroke: white 2px;width: 100%;display: block;}
 nav li a:hover {color: #1a1a1a;-webkit-text-stroke: #1a1a1a 1px;}
 
 /* Header */
@@ -49,7 +51,15 @@ main > header {  display: flex; justify-content: center; position: relative;heig
 main > header h1 {position: absolute; z-index: 1;bottom: 0;padding-bottom: 10vw;}
 main > header img {width: 100vw; height: auto;min-height: 180px;min-width: 350px;}
 
-main > header iframe {width: 100%;height: 110%;position: absolute;filter: grayscale(0.7);opacity: 0.7;}
+main > header img {width: 100%;height: 110%;position: absolute;filter: grayscale(0.7);opacity: 0.7;}
+main > header::after {content:"˅";transition: 1s ease-out; position: absolute; bottom: 0; color: var(--textFont);animation: headerArrow 1s infinite;}
+
+@keyframes headerArrow {
+    0% {bottom: 0;}
+    50% {bottom: 20px;}
+    100% {bottom: 0;}
+}
+
 /* sections */
 main section {display: flex; flex-direction: column; padding: 0 3vw;margin: 7em 0;}
 main section h2 {margin: auto; font-size:1.5em;text-decoration: underline; text-decoration-thickness: 0.1em;text-underline-offset: 0.2em;}
@@ -73,7 +83,13 @@ main section:nth-of-type(1) li:last-child{ }
 main section:nth-of-type(1) a { }
 main section:nth-of-type(1) figure {overflow: hidden;height: 100%;}
 main section:nth-of-type(1) figcaption {text-align: center;}
-main section:nth-of-type(1) img {overflow: hidden;min-height: 262px;min-width: 175px;width: calc(20vw + 5vw);height: 90%;}
+main section:nth-of-type(1) img {transition:2s ease-in-out; overflow: hidden;min-height: 262px;min-width: 175px;width: calc(20vw + 5vw);height: 90%;}
+main section:nth-of-type(1) img:hover {border: 1px solid var(--invertedElements); padding: 0.2em;}
+
+main section:nth-of-type(1) div {}
+main section:nth-of-type(1) div button {}
+main section:nth-of-type(1) div button:first-child {}
+main section:nth-of-type(1) div button:last-child {}
 
 /* Section 2 */
 main section:nth-of-type(2) {}
@@ -84,13 +100,18 @@ main section:nth-of-type(2) li:last-child {display: flex;justify-content: flex-e
 main section:nth-of-type(2) li:last-child a {}
 
 main section:nth-of-type(2) li:last-child::after { display: none;}
-
+main section:nth-of-type(2) li div {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-right: 1em;
+ }
+ 
 main section:nth-of-type(2) p {}
 main section:nth-of-type(2) p:first-child {background: var(--invertedElements);color: var(--invertedTextFonts);height: 18px;text-align: center;line-height: 20px;text-transform: uppercase;max-width: 60px;flex: 1; font-weight: 600;letter-spacing: 0;}
    
 main section:nth-of-type(2) p:nth-of-type(2) {flex: 1;margin-left: 10px;line-height: 19px;font-weight: 300;}
 main section:nth-of-type(2) p:last-child {text-transform: none;margin: 4px 0;font-size: 1.2em;letter-spacing: 1px;flex: 0 0 100%; font-weight: 300;}
-main section:nth-of-type(2) a {text-decoration: none;color: var(--textFont);display: flex;flex-flow: row wrap;}
+main section:nth-of-type(2) a {text-decoration: none;color: var(--textFont);display: flex;flex-flow: row nowrap;}
 
 /* Section 3 */
 
@@ -185,8 +206,6 @@ footer > small {order: 3;color: var(--textFont);font-size: 11px;margin-top: 1em;
 }
 @media only screen and (min-width: 1024px ){
 
-/* style.css | http://127.0.0.1:5500/css/style.css */
-
 main section:nth-of-type(1) ul {
     
     width: 90vw;
@@ -218,11 +237,11 @@ main section:nth-of-type(1) ul {
     padding: 0 12vw;
   }
   
-  main > header iframe {
+  main > header img {
     position: fixed;
     z-index: -2;
   }
-  main > header iframe::after {
+  main > header img::after {
     content: '';
     display: inline-block;
     position: absolute;
@@ -232,13 +251,89 @@ main section:nth-of-type(1) ul {
     right: 0;
     left: 0;
   }
-  
-  
-    
+
     main section:nth-of-type(2) p:last-child {margin-top:0;flex: unset;}
     main section:nth-of-type(2) p:first-child { width: 75px;flex: unset;}
        
     main section:nth-of-type(2) ul li p {margin: 0 1em;}
+
+
+  
+/* style.css | file:///C:/Users/jessy/Documents/GitHub/FvD/css/style.css */
+
+nav ul {
+  /* flex-direction: column; */
+  flex-direction: row;
+}
+
+nav li a {
+  /* font-size: 1.4em; */
+  /* -webkit-text-stroke: white 2px; */
+  font-size: 1.2em;
+  -webkit-text-stroke: unset;
+  padding: 0 2em;
+}
+
+nav li:last-child {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  /* padding: 0.9em 4em; */
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body > header button {
+  display: none;
+}
+
+
+/* style.css | file:///C:/Users/jessy/Documents/GitHub/FvD/css/style.css */
+
+footer > a {
+  max-width: 300px;
+  order: 3;
+  margin: 1.5em 0;
+}
+
+footer {
+  /* align-items: center; */
+  align-items: baseline;
+}
+
+footer nav {
+  /* width: 100%; */
+  padding: 0;
+  order: 2;
+  margin: 1.5em 0;
+}
+
+footer nav li, header nav li {
+  border-left: solid 1px var(--textFont);
+  border-right: solid 1px var(--textFont);
+}
+
+header img { 
+  filter: var(--logoColor);
+}
+footer img {
+  height: auto;
+  order: 1;
+  width: 500px;
+  margin: 1.5em 0;
+  filter: var(--logoColor);}
+
+footer > small {
+  margin: 4em 0;
+}
+
     
 }
 @media only screen and (min-width: 1300px ){
