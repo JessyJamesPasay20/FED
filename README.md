@@ -1,7 +1,23 @@
 # Procesverslag
-Frontend Development eind opdracht -> www.Mappa.co.jp
+
 
 Verslag om verandering vast te leggen.
+
+# Jessy James Paasay
+
+**Auteur**
+Jessy James Pasay
+
+**Startniveaau**
+Zwart
+
+**Je focus**
+Plane / responsive
+
+# Mappa.co.jp
+
+Frontend Development eind opdracht -> www.Mappa.co.jp
+
 
 # Week 1
 
