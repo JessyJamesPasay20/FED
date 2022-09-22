@@ -1,7 +1,9 @@
 # Procesverslag
-Frontend Development eind opdracht -> Mappa.co.jp
+Frontend Development eind opdracht -> www.Mappa.co.jp
 
 Verslag om verandering vast te leggen.
+
+# Week 1
 
 ** [ 6-9-2022 ]
 De basis files / mappen toegevoegd zoals : Twee pagina's, mappen voor assets ( Images, Videos en Fonts ) en een CSS map / file.
