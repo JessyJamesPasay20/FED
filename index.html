@@ -12,26 +12,24 @@
     </head> 
     <body>
         <header>
-            <img src="assets/images/logos/mappaLogo.png" alt="logo">
+            <!-- Source image : -->
+            <img src="assets/images/logos/mappaLogo.png" alt="Mappa logo">
+            <!-- Header navigation -->
             <nav tabindex="0">
                 <ul role="menubar" aria-haspopup="true">
                     <li role="menuitem" aria-label="Favorites">
                         <a href="./favorites.html">Favorites</a>
                     </li>
+                    <!--
                     <li>
-                        <a>Japanese</a>
-                        <a>English</a>
+                        <button>Light mode</button>
                     </li>
+                    -->
                 </ul>    
-                <a>
-                    Twitter
-                </a>
-                <a>
-                    Youtube
-                </a>
             </nav>
+            <!-- Hamburger menu button-->
             <button aria-label="button that opens the navbar upon interaction">
-                <!-- temporary icon (will make it myself later )-->
+                <!-- hamburger menu icon -->
                 <svg viewBox="0 0 40.53 26.84">
                     <line  x1="4.33" y1="35.7" x2="4.75" y2="1.7"/>
                     <line  x1="15.58" y1="35.84" x2="16" y2="1.84"/>
@@ -42,15 +40,25 @@
         <main>
         <!-- Home banner -->
             <header >
-                <h1>Heading 2</h1>
+                <!-- Working on it
+                <section>
+                    <h1>Heading 1</h1>
+                    <p> Personal recommendations for your viewing pleasure! </p>
+                </section>
+                -->
+                <!-- Source imaage : -->
+                <img src="assets/images/pageBackground.jpg" alt="Website banner showing visuals of the Jujutsu kaisen zero movie">
+                
             </header>
-            <!-- Inleiding -->
+            <!-- Anime shows I personnally recommend to the user -->
             <section>
                 <h2>Recommended anime</h2>
                 <ul>
+                    <!-- Every li represents a different anime -->
                     <li>
                         <a href="#">
                             <figure>
+                                <!-- Source imaage : -->
                                 <img src="assets/images/animeCovers/anime/eightySixCover.jpg" alt="Cover image of the anime Eighty six">
                                 <figcaption>
                                     Eighty six
@@ -59,8 +67,9 @@
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href="#">
                             <figure>
+                                <!-- Source imaage : -->
                                 <img src="assets/images/animeCovers/anime/reZeroCover.jpg" alt="Cover image of the anime Re zero">
                                 <figcaption>
                                     Re:Zero
@@ -69,8 +78,9 @@
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href="#">
                             <figure>
+                                <!-- Source imaage : -->
                                 <img src="assets/images/animeCovers/anime/fateBabyloniaCover.jpg" alt="Cover image of the fgo game anime Fate babylonia">
                                 <figcaption>
                                     Fate babylonia
@@ -79,8 +89,9 @@
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href="#">
                             <figure>
+                                <!-- Source imaage : -->
                                 <img src="assets/images/animeCovers/anime/konosubaCover.jpg" alt="Cover image of the anime Konosuba">
                                 <figcaption>
                                     Konosuba
@@ -89,8 +100,9 @@
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href="#">
                             <figure>
+                                <!-- Source imaage : -->
                                 <img src="assets/images/animeCovers/anime/KakeguruiCover.jpg" alt="Cover image of the anime Kakegurui">
                                 <figcaption>
                                     Kakegurui
@@ -101,6 +113,7 @@
                     <li>
                         <a>
                             <figure>
+                                <!-- Source imaage : -->
                                 <img src="" alt="">
                                 <figcaption>
                                     
@@ -108,23 +121,39 @@
                             </figure>
                         </a>
                     </li>
+                    <!-- Will always be the last element, sends user to a different website if truly interested in the subject -->
                     <li>
-                        <a>
+                        <a href="#">
                             More recommendations
                         </a>
                     </li>
                 </ul>
-                <div>
-                    <button>Left</button>
-                    <button>Right</button>
-                </div>
             </section>   
-            <!-- Slide met images van albums en artiesten -->
+            <!-- News section, "Scrapes info" from the Myanimelist.net/news website-->
             <section>
                 <h2>News</h2>
                 <ul>
+                    <!-- Each li represents a different article -->
                     <li>
-                        <a href="">
+                        <!-- User can click on the sections to read the full article -->
+                        <a href="#">
+                            <div>
+                                <!-- Whether it's anime related or something else -->
+                                <p>Anime</p>
+                                 <!-- Date of publication -->
+                                <p>29-6-2022</p>
+                            </div>
+                            <!-- Slight summary of the article -->
+                            <p>
+                            
+                                The salutation livestream of the Chainsaw Man world premiere event revealed on Monday five additional cast,
+                                theme song artists, and a fourth promotional video. The anime series adapting Tatsuki Fujimoto's action adventure manga will premiere on October 12 at 12:00 am. On Toky.. Read more 
+
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
                             <div>
                                 <p>Anime</p>
                                 <p>29-6-2022</p>
@@ -132,13 +161,13 @@
                             <p>
                             
                                 The salutation livestream of the Chainsaw Man world premiere event revealed on Monday five additional cast,
-                                theme song artists, and a fourth promotional video. The anime series adapting Tatsuki Fujimoto's action adventure manga will premiere on October 12 at 12:00 am. On Toky.. 
+                                theme song artists, and a fourth promotional video. The anime series adapting Tatsuki Fujimoto's action adventure.. Read more
 
                             </p>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <div>
                                 <p>Anime</p>
                                 <p>29-6-2022</p>
@@ -146,13 +175,12 @@
                             <p>
                             
                                 The salutation livestream of the Chainsaw Man world premiere event revealed on Monday five additional cast,
-                                theme song artists, and a fourth promotional video. The anime series adapting Tatsuki Fujimoto's action adventure manga will premiere on October 12 at 12:00 am. On Toky.. 
-
+                                theme song artists, and a fourth promotional video.. Read more 
                             </p>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <div>
                                 <p>Anime</p>
                                 <p>29-6-2022</p>
@@ -160,27 +188,13 @@
                             <p>
                             
                                 The salutation livestream of the Chainsaw Man world premiere event revealed on Monday five additional cast,
-                                theme song artists, and a fourth promotional video. The anime series adapting Tatsuki Fujimoto's action adventure manga will premiere on October 12 at 12:00 am. On Toky.. 
+                                theme song artists, and a fourth promotional video. The anime series adapting Tatsuki.. Read more
 
                             </p>
                         </a>
                     </li>
                     <li>
-                        <a href="">
-                            <div>
-                                <p>Anime</p>
-                                <p>29-6-2022</p>
-                            </div>
-                            <p>
-                            
-                                The salutation livestream of the Chainsaw Man world premiere event revealed on Monday five additional cast,
-                                theme song artists, and a fourth promotional video. The anime series adapting Tatsuki Fujimoto's action adventure manga will premiere on October 12 at 12:00 am. On Toky.. 
-
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
+                        <a href="#">
                             <div>
                                 <p>Anime</p>
                                 <p>29-6-2022</p>
@@ -195,6 +209,7 @@
                     </li>
                     <li>
                        <a>Find more new
+                        <!-- Source SVG : https://iconmonstr.com/arrow-right-thin-svg/ -->
                         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
                        </a>
                     </li>
@@ -208,8 +223,9 @@
                         <a>
                             
                             <p>
-                            Overlord
+                                Overlord
                             </p>
+                            <!-- Source imaage : -->
                             <img src="assets/images/animeCovers/novel1.jpg" alt="">  
                         </a>
                     </li>
@@ -218,6 +234,7 @@
                             <p>
                                 Returner's Magic
                             </p>
+                            <!-- Source imaage : -->
                             <img src="assets/images/animeCovers/manga1.jpg" alt="">    
                         </a>
                     </li>
@@ -226,6 +243,7 @@
                             <p>
                                 Dragonball Super
                             </p>
+                            <!-- Source imaage : -->
                             <img src="assets/images/animeCovers/manga2.jpg" alt="">    
                         </a>
                     </li>
@@ -234,6 +252,7 @@
                             <p>
                                 Shadow Garden
                             </p>
+                            <!-- Source imaage : -->
                             <img src="assets/images/animeCovers/novel2.jpg" alt="A cover image of the Shadow Garden Novel">    
                         </a>
                     </li>
@@ -242,6 +261,7 @@
                             <p>
                                 Classroom of The elite
                             </p>
+                            <!-- Source imaage : -->
                             <img src="assets/images/animeCovers/manga3.jpg" alt="Cover image of the classroom of the elite manga">    
                         </a>
                     </li>
@@ -250,6 +270,7 @@
                             <p>
                                 Tanya the Evil
                             </p>
+                            <!-- Source imaage : -->
                             <img src="assets/images/animeCovers/novel3.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
                         </a>
                     </li>
@@ -258,35 +279,49 @@
                             <p>
                                 Overlord
                             </p>
+                            <!-- Source imaage : -->
                             <img src="assets/images/animeCovers/manga4.jpg" alt="Cover image of the Blue lock football manga">    
                         </a>
                     </li>
                     <li>
-                       <a>
+                        <!-- Leads to aa different website recommendeing manga's and novels -->
+                       <a href="#">
                         More manga & novel recommendations
+                        <!-- Source SVG : https://iconmonstr.com/arrow-right-thin-svg/ -->
                         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
 
                        </a>
                     </li>
                 </ul>
             </section> 
+            <!-- Section that displays several links to displayed youtube videos  -->
             <section>
                 <h2>Youtube</h2>
                 <ul>
                     <!-- Column 1 -->
                     <li>
                         <ul>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -294,17 +329,27 @@
                     <!-- Column 2 -->
                     <li>
                         <ul>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -312,17 +357,27 @@
                      <!-- Column 3 -->
                     <li>
                         <ul>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -330,17 +385,27 @@
                     <!-- Column 4 -->
                     <li>
                         <ul>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -348,17 +413,27 @@
                     <!-- Column 5 -->
                     <li>
                         <ul>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -366,17 +441,27 @@
                     <!-- Column 6 -->
                     <li>
                         <ul>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
-                            <li>
+                            <li>    
+                                <a>
                                 <figure>
+                                    <!-- Source imaage : -->
                                     <img src="assets/images/animeCovers/wallPaper.jpg" alt="Cover iamge of the Tanya the Evil Novel ">    
+                                    <figcaption>
+                                        Video title
+                                    </figcaption>
                                 </figure>
-                                <a></a>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -385,7 +470,9 @@
         </main>   
         
         <footer>     
-            <img src="assets/images/logos/mappaLogo.png" alt="">
+            <!-- Source image : -->
+            <img src="assets/images/logos/mappaLogo.png" alt="The logo for the company MAPPA">
+            <!-- Footer navigation -->
             <nav tabindex="0">
                 <ul role="menubar" aria-haspopup="true">
                     <li role="menuitem" aria-label="Favorites">
@@ -393,6 +480,7 @@
                     </li>
                 </ul>    
             </nav>
+            <!-- Button that links to a different website -->
             <a href="#">Find more about anime</a>
             <small>&copy; Mappa Co.,LTD</small>
         </footer>
