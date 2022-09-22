@@ -6,12 +6,15 @@ Verslag om verandering vast te leggen.
 # Jessy James Paasay
 
 **Auteur**
+
 Jessy James Pasay
 
 **Startniveaau**
+
 Zwart
 
 **Je focus**
+
 Plane / responsive
 
 # Mappa.co.jp
