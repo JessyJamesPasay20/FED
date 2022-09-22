@@ -93,6 +93,31 @@ De oplossing voor deze beperking, is het vergroten van teksten en buttons. Op de
 
 }
 
+** [ 8-9-2022 ]
+
+Extra onderzoek gedaan naar de website en images gezocht voor content
+
+** [ 11-9-2022 ]
+Index page design op basis van het origineel.
+
+** [ 12-9-2022 ]
+Section 1 van de pagina maken, het ging prima maar liep tegen een aantal dingen aan. Responsive images waren altijd al iets waar ik moeite mee had.
+** [ 13-9-2022 ]
+Onderzoek gedaan naar responsive images op forums / videos / w3c.
+** [ 17-9-2022 ]
+Alle sections toegevoegd en begonnen met de styling van elementen op basis van de mappaa website.
+** [ 19-9-2022 ]
+Verder werken met de styling van elementen.
+** [ 20-9-2022 ]
+Werken aan het responsive gedeelte van de homepaage en interacties op desktop.
+** [ 21-9-2022 ]
+Optimisen van de html/css code, zodat het representatief is voor het gesprek.
+
+
+
+
+
+
 
 
 
