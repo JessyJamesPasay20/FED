@@ -350,3 +350,28 @@ main > header h1 {
               }
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+  
+    --textFont: #fff;
+    --pageBackground: #000000;
+    --invertedElements: #fff;
+    --invertedTextFonts: #000000;
+    --afterColor: #ffffff75;
+    --logoColor: contrast(0) brightness(2);
+    
+}
+    @media (prefers-color-scheme: light) {
+    :root {
+    --textFont: #000000;
+    --pageBackground: #fff;
+    --invertedElements: #000000;
+    --invertedTextFonts: #fff;
+    --afterColor: #000000;
+    --logoColor: contrast(0) brightness(0);
+   
+}
+
+
+ 
+}
