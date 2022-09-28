@@ -301,7 +301,14 @@ main > header h1 {
   
    main section:nth-of-type(4) {padding-right: 0;}
    main section:nth-of-type(4) figure {position: relative;display: flex;}
-   main section:nth-of-type(4) figcaption {position: absolute;bottom: 0;padding: 1em;background: #000000e3;width: 100%;text-align: center;}
+   main section:nth-of-type(4) figcaption {position: absolute;
+bottom: 0;
+padding: 1em;
+background: var(--pageBackground);
+width: 100%;
+text-align: center;
+color: var(--textFont);
+opacity: 0.9;}
    
     /* Favorites page */
 
