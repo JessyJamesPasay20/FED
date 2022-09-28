@@ -196,7 +196,7 @@ main section:nth-of-type(5) img {}
 
 #pages p {
     z-index: 1;
-    color: var(--textFont);
+    
     margin: .5em 0;
    }
 #pages main section:nth-of-type(1) { justify-content: center;display: flex;padding: 0 6vw;}
