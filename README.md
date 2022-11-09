@@ -21,6 +21,18 @@ Plane / responsive
 
 Frontend Development eind opdracht -> www.Mappa.co.jp
 
+Home page --> https://www.mappa.co.jp
+
+![afbeelding](https://user-images.githubusercontent.com/93660089/200749100-37bd38fa-7aa8-4b53-9545-95f181c1b920.png)
+![afbeelding](https://user-images.githubusercontent.com/93660089/200749176-84d30cf9-5ddb-49d8-8505-38ffe4c40858.png)
+![afbeelding](https://user-images.githubusercontent.com/93660089/200749285-d2a33855-c788-4fac-9a9a-86b59b77cc8c.png)
+
+Company --> https://www.mappa.co.jp/company
+
+![afbeelding](https://user-images.githubusercontent.com/93660089/200749335-c2284335-73ac-4cd5-bbc5-ad5e698b1214.png)
+![afbeelding](https://user-images.githubusercontent.com/93660089/200749400-70ecf287-6e00-4268-b64a-f2983899ae50.png)
+
+
 
 # Week 1
 
