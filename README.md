@@ -223,9 +223,10 @@ Ik had voor het eindgesprek jammergenoeg Corona opgelopen, dus moest ik het hela
 
 # Bronnenlijst
 
--
-
-
+- Meer over reduced motion en Cub Bezier / animatie : https://www.joshwcomeau.com/animation/css-transitions/
+- Een handige tool om clip-paths te maken : https://bennettfeely.com/clippy/
+- Informatie over hoe rotate3d() nou precies werkt : https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d , https://www.w3.org/Talks/2012/0416-CSS-WWW2012/Demos/transforms/demo-rotate3d.html
+- Informatie over wat Matrix3d inhoudt : https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/matrix3d
 
 
 
