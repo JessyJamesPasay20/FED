@@ -262,6 +262,12 @@ footer > small { order: 3; color: var(--textFont); font-size: 11px; margin-top: 
 @media only screen and (min-width: 1320px) {
   main section:nth-of-type(2) p:last-child { font-size: 1.5em; }
   main section:nth-of-type(3) ul { grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr); }
+
+  /* Favorites */
+  #pages main > section:nth-of-type(1) {align-items: start;}
+  
+  #pages section:nth-of-type(1) > article {grid-area: 5 / 1 / 7 / 4;}
+  #pages section:nth-of-type(1) ul {grid-area: 2 / 1 / 5 / 4;}
 }
 
 @media (prefers-reduced-motion: reduce) {
