@@ -3,7 +3,7 @@
 
 Verslag om verandering vast te leggen.
 
-# Jessy James Paasay
+# Jessy James Pasay
 
 **Auteur**
 
