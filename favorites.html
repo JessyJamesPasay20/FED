@@ -4,29 +4,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@600&family=Raleway&family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet"> 
         <title>Home</title>
     </head> 
     <body id="pages">
-        <header>
-            <!-- Source image : -->
-            <a href="index.html" tabindex="1">
-                <img src="assets/images/logos/mappaLogo.png" alt="Mappa logo" >
-            </a>
+        <header >
+            <!-- Source image ( Logo ) : https://www.mappa.co.jp/ -->
+                <a href="index.html" tabindex="1">
+                    <img src="assets/images/logos/mappaLogo.png" alt="Mappa logo" >
+                </a>
             <!-- Header navigation -->
-            <nav tabindex="2">
+            <nav tabindex="2" >
                 <ul role="menubar" aria-haspopup="true">
                     <li role="menuitem" aria-label="Favorites">
                         <a href="./favorites.html" tabindex="3">Favorites</a>
                     </li>
-                    <!--
-                    <li>
-                        <button>Light mode</button>
-                    </li>
-                    -->
                 </ul>    
             </nav>
             <!-- Hamburger menu button-->
@@ -44,87 +35,155 @@
             <header>
                 <section>
                     <h1 tabindex="3">What is anime?</h1>
-                    <p>A text about virtually anything on this planet, if you're reading this.. You've been baited into reading filler text for absolutely no reason.A text about virtually anything on this planet, if you're reading this.. You've been baited into reading filler text for absolutely no reason.A text about virtually anything on this planet, if you're reading this.. You've been baited into reading filler text for absolutely no reason.</p>
-                    <p>this planet, if you're reading this.. You've been baited into reading filler text for absolutely no reason.A text about virtually anything on this planet, if you're reading this.. You've been baited into reading filler text for absolutely no reason.</p>
+                    <!-- Source : https://www.mappa.co.jp/ -->
+                    <p>
+                        I have something I like, something I want to express...
+                        The desire to “create” that is born from that, and the powerful energy that it brings to the work, gives it its individuality and intensity.
+                        Based on this idea, we have been producing works with emphasis on the originality of creators.
+                    </p>
+                   
                 </section>
-                <img src="assets/images/pageBackground.jpg" alt="Website banner showing visuals of the Jujutsu kaisen zero movie">
+                <!-- Source : https://nl.pinterest.com/pin/608478599639889188/ -->
+                <img src="assets/images/pagesBackground.jpg" alt="Website banner showing visuals of the anime Vinland saga">
             </header>
-            <!-- Anime shows I personnally recommend to the user -->
 
+            <!-- Anime shows I personnally recommend to the user -->
         <section>
-            <h2 tabindex="4">Title</h2> <!-- ::after second title -->
+            <h2 tabindex="4">Suggestions</h2> <!-- ::after second title -->
+
+            <!-- De bedoeling is dat je op één van deze 6 knoppen te klikken om gerelateerde Articles zichtbaar te maken. Ik heb het niet kunnen
+                Laten werken met JS. Dus ik heb het zo gelaten om het tenminste visueel te weergeven.
+            -->
             <ul>
-                <!-- Article 1 : name-->
+                <!-- Article 1 : Code Geass -->
                 <li>
-                    <!-- stays display flex on visit -->
-                    <button tabindex="5">Anime 1</button>
+                    <button tabindex="5">Code Geass</button>
                 </li>
                 <!-- Article 1 : name-->
                 <li>
-                    <button tabindex="6">Anime 1</button>
+                    <button tabindex="6">Takt op</button>
                 </li>
                 <!-- Article 1 : name-->
                 <li>
-                    <button tabindex="7">Anime 1</button>
+                    <button tabindex="7">Dans Danseur</button>
                 </li>
                 <!-- Article 1 : name-->
                 <li>
-                    <button tabindex="8">Anime 1</button>
+                    <button tabindex="8">Chainsaw Man</button>
                 </li>
                 <!-- Article 1 : name-->
                 <li>
-                    <button tabindex="9">Anime 1</button>
+                    <button tabindex="9">Vinland Saga</button>
+                </li>
+                <li>
+                    <button tabindex="10">Anime 1</button>
                 </li>
             </ul>
 
             <!-- Different topics depending on button click ( display none on none clicked )-->
             <!-- Same thing with the text articles-->
 
-            <!-- Article 1 : name-->
-            <!-- Source image : -->
-            <img src="assets/images/animeCovers/wallPaper.jpg" alt="Anime image 1">
+            <!-- Article 1 : Code geass-->
+            <!-- Source image : https://wallpaper.dog/anime-city-wallpapers -->
+            <img src="assets/images/animeCovers/wallPaper.jpg" alt="Image of a drawn night city">
             <article>
                 <h3 tabindex="10">Code geass</h3>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </article>
           
-            <!-- Article 2 : name-->
-            <!-- Source image : -->
-            <img src="assets/images/animeCovers/wallPaper.jpg" alt="Anime image 1">
-            <article>
-                <h3 tabindex="11">Death note</h3>
+            <!-- Article 2 : Takt op -->
+            <!-- Source image : https://www.youtube.com/watch?v=wmWX6ZGSzuE -->
+            <img src="assets/images/youtubeThumbnails/taktOpOpening.PNG" alt="Opening theme of the anime, Takt op">    
+            <article class="Article-1">
+                <h3 tabindex="11">Takt op</h3>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </article>
 
-            <!-- Article 3 : name-->
-            <!-- Source image : -->
-            <img src="assets/images/animeCovers/wallPaper.jpg" alt="Anime image 1">
+            <!-- Article 3 : Dans dans danseur -->
+            <!-- Source image : https://www.youtube.com/watch?v=O-oKlfXhtdM -->
+            <img src="assets/images/youtubeThumbnails/dansDansDanseurTrailer.PNG" alt="Announcement of the upcoming dance anime, Dance Dance Danseur"> 
             <article>
-                <h3 tabindex="12">Title</h3>
+                <h3 tabindex="12">Dans Dans Danseur</h3>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </article>
 
-            <!-- Article 4 : name-->
-           <!-- Source image : -->
-           <img src="assets/images/animeCovers/wallPaper.jpg" alt="Anime image 1">
+            <!-- Article 4 : Chainsawman opening->
+           <!-- Source image : https://www.youtube.com/watch?v=dFlDRhvM4L0 -->
+           <img src="assets/images/youtubeThumbnails/chainsawManOpening.PNG" alt="The first opening video for the anime Chainsaw Man">    
             <article>
-                <h3 tabindex="13">Title</h3>
+                <h3 tabindex="13">Chainsaw Man</h3>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </article>
             
-            <!-- Source image : -->
-            <img src="assets/images/animeCovers/wallPaper.jpg" alt="Anime image 1">
-            <!-- Article 5 : name-->
+              <!-- Source image : https://www.youtube.com/watch?v=1n62_pP5zYI -->
+              <img src="assets/images/youtubeThumbnails/vinlandSagaSeason2.PNG" alt="Announcement of the upcoming Viking action anime, Vinland Saga ">    
+            <!-- Article 5 : Vinland saga -->
             <article>
-                <h3 tabindex="14">Title</h3>
+                <h3 tabindex="14">Vinland Saga</h3>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </article>
+
+             <!-- Source image : https://www.youtube.com/watch?v=fQkHWaQSm88 -->
+             <img src="assets/images/youtubeThumbnails/campfireCooking.PNG" alt="Announcement of the upcoming Isekai anime, Campfire cooking">    
+             <!-- Article 6 : Campire cooking-->
+             <article>
+                 <h3 tabindex="14">Campfire Cooking</h3>
+                 <p>The salutation livestream of the Chainsaw Man world premiere event revealed on Monday five additional cast,
+                    theme song artists, and a fourth promotional video. The anime series adapting Tatsuki Fujimoto's action adventure manga will premiere on October 12 at 12:00 am. On Tokyo.</p>
+             </article>
          
 
         </section>
+        <section>
+            <!-- Source : https://www.mappa.co.jp/ -->
+            <h2>Company</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <td>Mappa</td>
+                </tr> 
+                <tr>
+                    <th>Established</th>
+                    <td>June 14, 2011 CEO</td>
+                </tr> 
+                <tr>
+                    <th>CEO</th>
+                    <td>Manabu Otsuka</td>
+                </tr> 
+                <tr>
+                    <th>Business content</th>
+                    <td> We plan and produce all genres related to animation, such as TV animation, movies, commercials, and web movies.</td>
+                </tr> 
+                <tr>
+                    <th>employees</th>
+                    <td>310 (as of April 2022)</td>
+                </tr> 
+            </table>
+                <section>
+                    <!-- Source : https://www.mappa.co.jp/ -->
+                    <h2>
+                        Contact
+                    </h2>
+                    <p>
+                        We propose planning and production in all genres related to animation images, such as TV animation, movies, commercials, web movies, and video materials. For work requests and consultations, please contact us by email first.
+                        Depending on the content of your inquiry, we may not be able to reply.
+                        Please note.
+                    </p>
+                    <p>Depending on the content of your inquiry, we may not be able to reply. Please note.</p>
+
+                    <p>Contact information</p>
+                    <p>info@mappa.co.jp</p>
+
+                    <p>PARCO ART Official Homepage</p>
+                    <p>https://art.parco.jp/</p>
+
+                    <p>PARCO ART Official Twitter</p>
+                    <p>https://twitter.com/parco_art</p>
+            </section>
+        </section>
         </main>   
         <footer>     
-            <!-- Source image : -->
+            <!-- Source image : https://www.mappa.co.jp/ -->
             <img src="assets/images/logos/mappaLogo.png" alt="The logo for the company MAPPA">
             <!-- Footer navigation -->
             <nav tabindex="0">
