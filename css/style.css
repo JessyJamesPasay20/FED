@@ -234,13 +234,13 @@ footer > small { order: 3; color: var(--textFont); font-size: 11px; margin-top: 
   #pages main section:nth-of-type(1) { justify-content: center; display: flex; padding: 0 6vw; }
   #pages section:nth-of-type(1) h2 { grid-area: 1 / 1 / 2 / 4; margin-left: 0; text-underline-offset: unset; }
   #pages main > section:nth-of-type(1) { display: grid; grid-template-columns: repeat(6, 1fr); grid-template-rows: repeat(1, 1fr); gap: 15px 52px; max-width: 1500px; margin: 6vw auto; align-items: center; }
-  #pages section:nth-of-type(1) ul {justify-content: center;align-items: center;grid-area: 2 / 1 / 5 / 4;display: grid;grid-template-columns: repeat(2, 1fr);grid-template-rows: repeat(3, 1fr);gap: 14px 30px;margin: 0px;padding-bottom: 0px;}
+  #pages section:nth-of-type(1) ul {justify-content: center;align-items: center; grid-area: 2 / 1 / 5 / 5;display: grid;grid-template-columns: repeat(2, 1fr);grid-template-rows: repeat(3, 1fr);gap: 14px 30px;margin: 0px;padding-bottom: 0px;}
   #pages section:nth-of-type(1) ul li { opacity: 0.7; margin: 0; text-align: left; }
-  #pages section:nth-of-type(1) ul li:nth-of-type(1) button { padding: 2px 8px; border-top: transparent; border-bottom: transparent; }
-  #pages section:nth-of-type(1) > article { grid-area: 4 / 1 / 7 / 4; }
+  #pages section:nth-of-type(1) ul li:nth-of-type(1) button { padding: 2px 8px; border-top: transparent; border-bottom: transparent;  border-left: solid 1px var(--textFont);border-right: solid 1px var(--textFont);}
+  #pages section:nth-of-type(1) > article {grid-area: 5 / 1 / 5 / 5;}
   #pages section:nth-of-type(1) > article h3 { background: var(--invertedElements); color: var(--invertedTextFonts); font-size: 16px; width: fit-content; padding: 0px 1em 0px 0.1em; margin: 0px 0px 0.9em; }
   #pages section:nth-of-type(1) > article p { color: var(--textFont); font-size: min(1.1vw, 16px); }
-  #pages section:nth-of-type(1) > img { width: unset; margin: 0px 0px 1em; max-height: calc(23vw); overflow: hidden; grid-area: 2 / 4 / 7 / 8; justify-self: end; }
+  #pages section:nth-of-type(1) > img { width: unset; margin: 0px 0px 1em; max-height: calc(23vw); overflow: hidden;  grid-area: 2 / 4 / 7 / 12; justify-self: end; }
   #pages section:nth-of-type(2) section { padding: 0px; }
   #pages section:nth-of-type(2) table { font-size: min(1.1vw, 16px); }
   #pages section:nth-of-type(2) section p { font-size: min(1.1vw, 16px); }
