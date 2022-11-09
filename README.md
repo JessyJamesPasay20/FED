@@ -134,13 +134,17 @@ Bij de 2de test hebben Donny en ik de opdracht gekregen om elkaars website to co
    - De tab knop start bij de eerste content section, inplaats van de navigatie.
    - De volgorde was voor een groot deel prima, alleen moet ik het eerste gedeelte              oplossen.
    - Op de tweede pagina moest ik nog de tab volgorde maken.
- 
+ ![afbeelding](https://user-images.githubusercontent.com/93660089/200744839-946f0d76-f948-4ec4-8d82-270c8be80127.png)
+![afbeelding](https://user-images.githubusercontent.com/93660089/200744856-400dc40f-5bdd-4fdb-8e7f-a56005894732.png)
+
 2. Ballon test
    Tijdens het testen observeerde ik dat Donny nogal veel moeite had om de website te          navigeren.
    - Snel de weg kwijt
    - Headers worden snel gemist ( te klein )
    - Tijdens het bewegen is de text ook moelijk te lezen.
-   
+   ![afbeelding](https://user-images.githubusercontent.com/93660089/200744807-ba082855-560c-4f70-94a2-4f4765df57b5.png)
+
+
 3. Kleurenblind 
    Tijdens het testen viel Donny op dat de text ietsjes blurry was, als suggestie gaf hij      om de body text wat groter te maken en daarbij ook het kleuren contrast.
    
@@ -178,15 +182,48 @@ Ik had voor het eindgesprek jammergenoeg Corona opgelopen, dus moest ik het hela
  
  *Uitkomst*
  
+ ![afbeelding](https://user-images.githubusercontent.com/93660089/200743376-3033606b-c734-44a0-bfbb-264ce362a0ef.png)
+ ![afbeelding](https://user-images.githubusercontent.com/93660089/200743522-f64dac39-eefb-4579-94a1-d3ae2d79aa05.png)
+ ![afbeelding](https://user-images.githubusercontent.com/93660089/200743569-6b7befda-9293-4936-87af-b66aa95ba9dc.png)
+ ![afbeelding](https://user-images.githubusercontent.com/93660089/200743631-ca10b292-f341-435e-86c8-a1eea7297c96.png)
+ ![afbeelding](https://user-images.githubusercontent.com/93660089/200743683-a448bed4-1455-450a-bcc5-966533fd2aef.png)
+
+
+ 
 *Dit ging goed / heb ik geleerd*
 
+- Toegankelijkheid: Het was heel interresant om te ervaren hoe we bepaalde toegankelijkheidsproblemen kunnen testen doormiddel simpele objecten. Dit hebt me wel
+  beter kunnen helpen om te zien hoe een gebruiker het zou kunnen ervaren. En mij daarop aanpassen. Begrijp hoe ik een reader effectief kan toepassen, tabs       werkent krijgen en denken een kleur gebruik indien mensen toch kleurenblind zijn. Verder begrijp ik nu ook beter dut duidelijk headings heel erg belangrijk     is, dit geld ook voor genoeg witruimte tussen elementen zodat het teveel kan worden voor gebruikers.
+  
+- Darkmode / lightmode / custom properties: Ik vroeg me voor dit vak nog vraag af hoe je nou eigenlijk een website kan bouwen met dark/light mode, dat het super   geavanceerd zou zijn.. Dit viel toch nog erg mee! Ik was voor het eerst geintroduceerd tot Custom properties, ik was zo blij dat ik het eigenlijk direct wou     toepassen op mijn eigen projecten. De lessen waar Vasilis Dark/light mode had besproken, was voor mij erg nuttig en iets wat ik altijd bij me zal houden.
+
+- Animaties: Ik was zelf nog bezig om me meer te verdiepen in een aantal verschillende animaties zoals Rotate3d, Matrix3d en Translate3d, clip-path en skew.
+  Ik zal niet zeggen dat ik er nu alles van weet maar ik wil het nu wel vaak gebruiken in toekomstige designs, het geeft mij ook meer inspiratie. In dit geval
+  het ik het toegepast om headings, foto's en mijn navigatie te stylen / animeren.
+  
+- Responsiveness: Ik was altijd een persoon die op de desktop begon, en zo naar de telefoon toe werkten als laatsts. In dit geval moesten we het Mobile-first     doen. Ik heb hier vooral geleerd dat mobile-first stukken beter is. Het werken aan responisve zelf is makkelijker, vereist minder code en je hebt meer 
+  mogelijkheden om te experimenteren met je design terwijl je bezig bent.
+  
+- Ik denk niet dat ik het niveau van iemand die in de Zwarte pistie zit, helemaal heb kunnen laten zien. Wel kan ik met zekerheid zegen dat ik veel nieuwe  
+  dingen heb op kunnen pakken. En mezelf wat meer comfortabel kan voelen wanneer ik aan de responsive kant werk.
+  
+  
+
+*Dit ging minder goed / is niet gelukt*
+
+- De Mappa website had een tof systeem waar je kon wisselen tussen verschillende artikelen wisselen doormiddel van knoppen. Alleen kon ik er niet uit komen hoe   dat kon doen zonder extreem lange JS. Ik online research gedaan maar schoot er eigenlijk niks mee op.
+
+- Motivatie was niet best dit blok, ik niet veel geluk deze paar maanden in dat begon toch echt aan me te vreten. Corona tijdens mijn eindgesprek en verder had   vader niet lang geleden een hart infarct. Dat boven op mijn project, ik kon het eingelijk niet meer.
+
+- Ik wou nog extra opties toevoegen zoals lasers, halloween thema en meer. Alleen had ik er geen tijd voor, mijn planning was compleet verwoest giezien           omstandiheden.
+
+- Ik kosten wat het kost een Carousel maken met javascript, alleen had ik het uiteindelijk opgegeven en was ik toch voor het alternatief gegaan.
+  Dit is iets wat ik op een later moment toch wil doen.
 
 
+# Bronnenlijst
 
-
-
-
-
+-
 
 
 
